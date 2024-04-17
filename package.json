@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "localhost": "^0.4.1"
+    "localhost": "^0.4.1",
+    "tailwindcss": "^3.4.3"
   }
 }

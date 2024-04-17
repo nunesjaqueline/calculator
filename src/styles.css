@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+   .main {
+      width: 24rem;
+      margin: 8rem auto;
+      display: flex;
+      flex-direction: column;
+      background-color: #707070; 
+
+      .display {
+         width: 20rem;
+         height: 6rem;
+         margin: 2rem auto;
+         background-color: #131212;
+      }
+
+      .cal-pad {
+         display: grid;
+         grid-template-columns: repeat(4, 2fr);
+         grid-template-rows: repeat(5, 1fr);
+         grid-column-gap: 0px;
+         grid-row-gap: 0px;
+      }
+
+      .specials {
+         grid-area: 1 / 1 / 2 / 2;
+      }
+   }
+ }

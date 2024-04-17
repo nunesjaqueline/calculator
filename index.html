@@ -3,36 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles.css">
     <title>Calculator</title>
 </head>
 <body>
     <div class="main">
-        <div class="display"></div>
-        <div class="specials">
-            <button>A/C</button>
-            <button>+/-</button>
-            <button>%</button>
+        <div>
+            <input type="text" class="display">
         </div>
-        <div class="numbers">
-            <button class="num">7</button>
-            <button class="num">8</button>
-            <button class="num">9</button>
-            <button class="num">4</button>
-            <button class="num">5</button>
-            <button class="num">6</button>
-            <button class="num">1</button>
-            <button class="num">2</button>
-            <button class="num">3</button>
-            <button class="num">0</button>
-            <button class="num">.</button>
+        <div class="calc-pad">
+            <div class="specials">
+                <button>A/C</button>
+                <button>+/-</button>
+                <button>%</button>
+            </div>
+            <div class="numbers">
+                <button class="num">7</button>
+                <button class="num">8</button>
+                <button class="num">9</button>
+                <button class="num">4</button>
+                <button class="num">5</button>
+                <button class="num">6</button>
+                <button class="num">1</button>
+                <button class="num">2</button>
+                <button class="num">3</button>
+                <button class="num">0</button>
+                <button class="num">.</button>
+            </div>
+            <div class="operators">
+                <button class="operator">:</button>
+                <button class="operator">x</button>
+                <button class="operator">-</button>
+                <button class="operator">+</button>
+                <button class="operator">=</button>
+            </div>
         </div>
-        <div class="operators">
-            <button class="operator">:</button>
-            <button class="operator">x</button>
-            <button class="operator">-</button>
-            <button class="operator">+</button>
-            <button class="operator">=</button>
-        </div>
+        
     </div>
 </body>
 </html>
